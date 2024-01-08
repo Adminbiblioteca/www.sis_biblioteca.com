@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Libros Digitales</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    #pagination-container {
+      text-align: center;
+      margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    }
+
+    #pagination-container button {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #pagination-container button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="main-container" class="main-container nav-effect-1">
+
+    <div class="main clearfix">
+
+      <!-- Header Content -->
+      <header id="header" class="page-header">
+        <div class="page-header-container row">
+          <!-- Logo -->
+          <div class="main-logo">
+            <a href="#" class="logo">Conalep Iztapalapa V</a>
+          </div>
+          <div class="menu-search">
+            <!-- Main Navigation -->
+            <div class="main-navigation">
+              <a href="#">Menu</a>
+            </div>
+
+            <!-- Search -->
+            <div class="catalog-search">
+              <input class="shuffle-search input_field " type="search" autocomplete="off" value="" maxlength="128" id="input-search" />
+              <label class="input_label" for="input-search">
+                <span class="input_label-content">Buscar libro</span>
+                <span class="input_label-search"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <div class="page-container">
+
+        <div class="page-title category-title">
+        </div>
+
+        <section id="book_list">
+
+
+         
+        
+
+          <div class="toolbar row">
+            <div class="filter-options small-12 medium-9 columns">
+            <a href="#" class="filter-item active" data-group="all"></a>
+              <a href="pagina_biologia_marina.html" class="filter-item" data-group="biologia">Biologia Marina </a>
+              
+            </div>
+
+            <div class="small-12 medium-3 columns">
+              <select class="sort-options">
+                <option value="" disabled selected> </option>
+                <option value=""> </option>
+                <option value="title"> </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-shuffle">
+            <ul id="grid" class="row">
+
+        <!--libro-->
+
+        <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+              <div class="bk-img">
+                <div class="bk-wrapper">
+                  <div class="bk-book bk-bookdefault">
+                    <div class="bk-front">
+                        <div class="bk-cover" style="background-image: url('https://0.academia-photos.com/attachment_thumbnails/68676657/mini_magick20210809-12825-1ykfhvd.png?1628563625'); background-size: cover; background-position: center;"></div>
+                      </div>
+                      
+                    <div class="bk-back"></div>
+                    <div class="bk-left"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-details">
+                <h3 class="book-item_title">Bacterias Marinas Productoras de Compuestos Antibacterianos Aisladas a partir de Invertebrados Intermareales</h3>
+                <p class="author">de Jorge Leon, Libia Liza, Isela Soto, Magali Torres y Andres Orozco</p>
+                
+                    <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                        <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Bacterias Marinas Productoras de Compuestos Antibacterianos Aisladas a partir de Invertebrados Intermareales.pdf">Descargar PDF</a>
+                   </div>
+
+
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://i1.rgstatic.net/publication/288004720_Ambientes_y_organismos_marinos_de_la_Reserva_Biologica_Isla_del_Cano_Area_de_Conservacion_Osa_Costa_Rica/links/567dd69508ae19758387be9c/largepreview.png'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Bibliografía sobre investigaciones marinas, oceanográficas, geológicas y atmosféricas en el Parque Nacional Isla del Coco y aguas adyacentes, Pacífico de Costa Rica</h3>
+          <p class="author">de Jorge Cortes</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Bibliografía sobre investigaciones marinas, oceanográficas, geológicas y atmosféricas en el Parque Nacional Isla del Coco y aguas adyacentes, Pacífico de Costa Rica.pdf">Descargar PDF</a>
+              </div>
+
+
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://imgv2-2-f.scribdassets.com/img/document/680868025/original/04e1e25e82/1699697633?v=1'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Biodiversidad Marina Tropical</h3>
+          <p class="author">de  Instituto Español de Oceanografia.</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Biodiversidad Marina Tropical.pdf">Descargar PDF</a>
+              </div>          
+           
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://image.isu.pub/231031043658-c14ba501932c1ca5db01e8952bd00d30/jpg/page_1.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Biodiversidad Marina</h3>
+          <p class="author">de German Marquez</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Biodiversidad Marina.pdf">Descargar PDF</a>
+              </div>      
+      
+           
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://i1.rgstatic.net/publication/258047635_Biologia_y_acuicultura_de_corvinas_en_el_mundo/links/00b49526bfca0bda2b000000/largepreview.png'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Biología y acuicultura de corvinas en el mundo</h3>
+          <p class="author">de Salvador Cardenas</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Biología y acuicultura de corvinas en el mundo.pdf">Descargar PDF</a>
+              </div>        
+         
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://www.azti.es/rim/wp-content/uploads/2017/06/portada_2.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Comparación de herramientas de análisis de imagen. eficiencia y uso en ecología bentónica de sustrato duro</h3>
+          <p class="author">de Lidia Gonzalez Angel y Maria Uyarra</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Comparación de herramientas de análisis de imagen. eficiencia y uso en ecología bentónica de sustrato duro.pdf">Descargar PDF</a>
+              </div>           
+              
+              
+     <!--libro-->
+
+     <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://i1.rgstatic.net/publication/343726478_Protocolos_de_monitoreo_de_la_biodiversidad_marina_en_areas_naturales_protegidas_del_Caribe_mexicano/links/5f498df6458515a88b81d60c/largepreview.png'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Guía de Ecología Marina</h3>
+          <p class="author">de Sergio Gonzalez y Carla Marin</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Guía de Ecología Marina.pdf">Descargar PDF</a>
+              </div>                  
+          
+
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["biologia"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://0.academia-photos.com/attachment_thumbnails/36150420/mini_magick20190309-18780-1nlch28.png?1552192655'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Microalgas, cultivo y beneficios</h3>
+          <p class="author">de Alexis Hernandez Peres y Jose I. Labbe</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Biologia/Biologia Marina" download="Microalgas, cultivo y beneficios.pdf">Descargar PDF</a>
+              </div>             
+
+
+                  </ul>
+
+                  <!-- Paginador -->
+                  <div id="pagination-container">
+                    <button onclick="showPage(1)">1</button>
+
+               
+
+
+
+
+                    <!-- Agrega más botones según sea necesario -->
+                  </div>
+                </div>
+              </section>
+      
+            </div>
+      
+            <!-- Footer Content -->
+            <footer id="footer" class="page-footer">
+              <div class="row footer-wrapper">
+                <div class="original-version small-12 columns">
+                  <a href="http://interactivejoe.com/book-viewer/" target="_blank"><em>El que lee mucho y anda mucho, ve mucho y sabe mucho.</em></a>
+                </div>
+                <div class="copyright small-12 columns">  <a href="http://interactivejoe.com/" target="_blank">Miguel de Cervantes Saavedra.</a></div>
+              </div>
+            </footer>
+      
+          </div>
+      
+  <!-- /main -->
+
+  <div class="main-overlay">
+    <div class="overlay-full"></div>
+  </div>
+
+</div>
+<!-- /main-container -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Shuffle/4.0.0/shuffle.min.js'></script>
+
+<script src="js/index.js"></script>
+
+<script>
+  // Función para mostrar la página seleccionada
+  function showPage(pageNumber) {
+    // Oculta todos los libros
+    $('#grid li').hide();
+
+    // Muestra los libros de la página seleccionada
+    var startIndex = (pageNumber - 1) * 10;
+    var endIndex = startIndex + 10;
+    $('#grid li').slice(startIndex, endIndex).show();
+  }
+
+  // Mostrar la primera página al cargar la página
+  $(document).ready(function () {
+    showPage(1);
+  });
+</script>
+
+</body>
+
+</html>

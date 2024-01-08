@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Libros Digitales</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    #pagination-container {
+      text-align: center;
+      margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    }
+
+    #pagination-container button {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #pagination-container button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="main-container" class="main-container nav-effect-1">
+
+    <div class="main clearfix">
+
+      <!-- Header Content -->
+      <header id="header" class="page-header">
+        <div class="page-header-container row">
+          <!-- Logo -->
+          <div class="main-logo">
+            <a href="#" class="logo">Conalep Iztapalapa V</a>
+          </div>
+          <div class="menu-search">
+            <!-- Main Navigation -->
+            <div class="main-navigation">
+              <a href="#">Menu</a>
+            </div>
+
+            <!-- Search -->
+            <div class="catalog-search">
+              <input class="shuffle-search input_field " type="search" autocomplete="off" value="" maxlength="128" id="input-search" />
+              <label class="input_label" for="input-search">
+                <span class="input_label-content">Buscar libro</span>
+                <span class="input_label-search"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <div class="page-container">
+
+        <div class="page-title category-title">
+        </div>
+
+        <section id="book_list">
+
+
+         
+        
+
+          <div class="toolbar row">
+            <div class="filter-options small-12 medium-9 columns">
+            <a href="#" class="filter-item active" data-group="all">Todas las categorías</a>
+              <a href="pagina_algebra.html" class="filter-item" data-group="matematicas">Algebra</a>
+              <a href="pagina_aritmetica.html" class="filter-item" data-group="matematicas">Aritmetica</a>
+              <a href="pagina_calculo.html" class="filter-item" data-group="matematicas">Calculo</a>
+              <a href="pagina_calculo_diferencial.html" class="filter-item" data-group="matematicas">Calculo Diferencial</a>
+              <a href="pagina_calculo_integral.html" class="filter-item" data-group="matematicas">Calculo Integral</a>
+              <a href="pagina_calculo_vectorial.html" class="filter-item" data-group="matematicas">Calculo Vectorial</a>
+              <a href="pagina_trigonometria.html" class="filter-item" data-group="matematicas">Trigonometria</a>
+
+            
+
+              
+            </div>
+
+            <div class="small-12 medium-3 columns">
+              <select class="sort-options">
+                <option value="" disabled selected> </option>
+                <option value=""> </option>
+                <option value="title"> </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-shuffle">
+            <ul id="grid" class="row">
+
+       
+            <!--libro-->
+
+   <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+    <div class="bk-img">
+      <div class="bk-wrapper">
+        <div class="bk-book bk-bookdefault">
+          <div class="bk-front">
+              <div class="bk-cover" style="background-image: url('https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/257ac0048ac9ea9f1e4d10fdd802a469/thumb_1200_1553.png'); background-size: cover; background-position: center;"></div>
+            </div>
+            
+          <div class="bk-back"></div>
+          <div class="bk-left"></div>
+        </div>
+      </div>
+    </div>
+    <div class="item-details">
+      <h3 class="book-item_title">Iniciación del aprendizaje del álgebra y sus consecuencias para la enseñanza</h3>
+      <p class="author">de Yolanda Serres Voisin</p>
+      
+          <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+              <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Algebra" download="Iniciación del aprendizaje del álgebra y sus consecuencias para la enseñanza.pdf">Descargar PDF</a>
+         </div> 
+
+
+         
+          <!--libro-->
+
+          <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+            <div class="bk-img">
+              <div class="bk-wrapper">
+                <div class="bk-book bk-bookdefault">
+                  <div class="bk-front">
+                      <div class="bk-cover" style="background-image: url('https://imagessl3.casadellibro.com/a/l/s7/defecto3.webp'); background-size: cover; background-position: center;"></div>
+                    </div>
+                    
+                  <div class="bk-back"></div>
+                  <div class="bk-left"></div>
+                </div>
+              </div>
+            </div>
+            <div class="item-details">
+              <h3 class="book-item_title">Álgebra de Matrices </h3>
+              <p class="author">de Universidad Veracruzana</p>
+              
+                  <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Algebra" download="Álgebra de Matrices.pdf">Descargar PDF</a>
+                  </div> 
+    
+  
+          <!--libro-->
+
+          <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+            <div class="bk-img">
+              <div class="bk-wrapper">
+                <div class="bk-book bk-bookdefault">
+                  <div class="bk-front">
+                      <div class="bk-cover" style="background-image: url('https://www.librouro.com/portadas//9/4/8/2/4/978849294824.JPG'); background-size: cover; background-position: center;"></div>
+                    </div>
+                    
+                  <div class="bk-back"></div>
+                  <div class="bk-left"></div>
+                </div>
+              </div>
+            </div>
+            <div class="item-details">
+              <h3 class="book-item_title">Álgebra y Geometría</h3>
+              <p class="author">de Elvira Hernández García</p>
+              
+                  <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Algebra" download="Álgebra y Geometría.pdf">Descargar PDF</a>
+                  </div>  
+                  
+
+                  
+        <!--libro-->
+
+        <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+          <div class="bk-img">
+            <div class="bk-wrapper">
+              <div class="bk-book bk-bookdefault">
+                <div class="bk-front">
+                    <div class="bk-cover" style="background-image: url('https://0.academia-photos.com/attachment_thumbnails/77618322/mini_magick20211229-5641-zahkuj.png?1640804280'); background-size: cover; background-position: center;"></div>
+                  </div>
+                  
+                <div class="bk-back"></div>
+                <div class="bk-left"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item-details">
+            <h3 class="book-item_title">Curso de matemática básica. aritmética </h3>
+            <p class="author">de Raquel Angulo</p>
+            
+                <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                    <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Aritmetica" download="Curso de matemática básica. aritmética.pdf">Descargar PDF</a>
+               </div>       
+                 
+
+      <!--libro-->
+
+      <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+          <div class="bk-img">
+            <div class="bk-wrapper">
+              <div class="bk-book bk-bookdefault">
+                <div class="bk-front">
+                    <div class="bk-cover" style="background-image: url('https://image.isu.pub/151106215707-e03afcf7274ea7353845b75e210530e8/jpg/page_1_thumb_large.jpg'); background-size: cover; background-position: center;"></div>
+                  </div>
+                  
+                <div class="bk-back"></div>
+                <div class="bk-left"></div>
+              </div>
+            </div>
+          </div>
+          <div class="item-details">
+            <h3 class="book-item_title">Aprendizaje de las Operaciones Básicas en Aritmética a través de la Resolución de Problemas</h3>
+            <p class="author">de María del Carmen Mastachi Pérez</p>
+            
+                <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                    <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Aritmetica" download="Aprendizaje de las Operaciones Básicas en Aritmética a través de la Resolución de Problemas.pdf">Descargar PDF</a>
+               </div> 
+
+<!--libro-->
+
+<li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+  <div class="bk-img">
+    <div class="bk-wrapper">
+      <div class="bk-book bk-bookdefault">
+        <div class="bk-front">
+            <div class="bk-cover" style="background-image: url('https://imgv2-1-f.scribdassets.com/img/document/688946604/original/459b280ff2/1702511716?v=1'); background-size: cover; background-position: center;"></div>
+          </div>
+          
+        <div class="bk-back"></div>
+        <div class="bk-left"></div>
+      </div>
+    </div>
+  </div>
+  <div class="item-details">
+    <h3 class="book-item_title">Programa de asesorías para la presentación de examen único de ingreso a bachillerato. Temario de matemáticas</h3>
+    <p class="author">de Tlalpan</p>
+    
+        <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+            <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Aritmetica" download="Programa de asesorías para la presentación de examen único de ingreso a bachillerato. Temario de matemáticas.pdf">Descargar PDF</a>
+       </div>
+
+   
+       
+         <!--libro-->
+
+     <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+      <div class="bk-img">
+        <div class="bk-wrapper">
+          <div class="bk-book bk-bookdefault">
+            <div class="bk-front">
+                <div class="bk-cover" style="background-image: url('https://images.cdn3.buscalibre.com/fit-in/360x360/cb/18/cb1830b1eda3087c3d73f97e117ae94b.jpg'); background-size: cover; background-position: center;"></div>
+              </div>
+              
+            <div class="bk-back"></div>
+            <div class="bk-left"></div>
+          </div>
+        </div>
+      </div>
+      <div class="item-details">
+        <h3 class="book-item_title">Cálculo Vectorial. Series de Fourier. Variable Compleja</h3>
+        <p class="author">de Francisco Javier Pérez González </p>
+        
+            <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Calculo Vectorial" download="Cálculo Vectorial. Series de Fourier. Variable Compleja.pdf">Descargar PDF</a>
+           </div>
+         
+   <!--libro-->
+
+   <li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+      <div class="bk-img">
+        <div class="bk-wrapper">
+          <div class="bk-book bk-bookdefault">
+            <div class="bk-front">
+                <div class="bk-cover" style="background-image: url('https://image.slidesharecdn.com/trabajocalculovectorial-121118104742-phpapp02/85/ejercicios-resueltos-de-calculo-vectorial-1-320.jpg?cb=1666913568'); background-size: cover; background-position: center;"></div>
+              </div>
+              
+            <div class="bk-back"></div>
+            <div class="bk-left"></div>
+          </div>
+        </div>
+      </div>
+      <div class="item-details">
+        <h3 class="book-item_title">Problemas del cálculo vectorial</h3>
+        <p class="author">de Ernesto Aranda y Pablo Pedregal</p>
+        
+            <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Calculo Vectorial" download="Problemas del cálculo vectorial.pdf">Descargar PDF</a>
+           </div>
+     
+<!--libro-->
+
+<li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+  <div class="bk-img">
+    <div class="bk-wrapper">
+      <div class="bk-book bk-bookdefault">
+        <div class="bk-front">
+            <div class="bk-cover" style="background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/81vFF-lU9RL._AC_UF1000,1000_QL80_.jpg'); background-size: cover; background-position: center;"></div>
+          </div>
+          
+        <div class="bk-back"></div>
+        <div class="bk-left"></div>
+      </div>
+    </div>
+  </div>
+  <div class="item-details">
+    <h3 class="book-item_title">Cálculo I. Problemas resueltos</h3>
+    <p class="author">de Rodrigo Vargas</p>
+    
+        <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+            <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Calculo" download="Cálculo I. Problemas resueltos.pdf">Descargar PDF</a>
+       </div>
+
+
+
+<!--libro-->
+
+<li class="book-item small-12 medium-6 columns" data-groups='["matematicas"]'>
+  <div class="bk-img">
+    <div class="bk-wrapper">
+      <div class="bk-book bk-bookdefault">
+        <div class="bk-front">
+            <div class="bk-cover" style="background-image: url('https://udelar.edu.uy/bibliotecas/wp-content/uploads/sites/40/2016/06/Cálculo-diferencial-e-integral-con-funciones-de-varias-variables-Tapa-sola.jpg'); background-size: cover; background-position: center;"></div>
+          </div>
+          
+        <div class="bk-back"></div>
+        <div class="bk-left"></div>
+      </div>
+    </div>
+  </div>
+  <div class="item-details">
+    <h3 class="book-item_title">Cálculo diferencial e integral de funciones de una variable </h3>
+    <p class="author">de Francisco Javier Pérez González</p>
+    
+        <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+            <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Matematicas/Calculo" download="Cálculo diferencial e integral de funciones de una variable.pdf">Descargar PDF</a>
+       </div>         
+     
+        
+                  </ul>
+
+                  <!-- Paginador -->
+                  <div id="pagination-container">
+                    <button onclick="showPage(1)">1</button>
+                    <button onclick="showPage(2)">2</button>
+
+               
+
+
+
+
+                    <!-- Agrega más botones según sea necesario -->
+                  </div>
+                </div>
+              </section>
+      
+            </div>
+      
+            <!-- Footer Content -->
+            <footer id="footer" class="page-footer">
+              <div class="row footer-wrapper">
+                <div class="original-version small-12 columns">
+                  <a href="http://interactivejoe.com/book-viewer/" target="_blank"><em>El que lee mucho y anda mucho, ve mucho y sabe mucho.</em></a>
+                </div>
+                <div class="copyright small-12 columns">  <a href="http://interactivejoe.com/" target="_blank">Miguel de Cervantes Saavedra.</a></div>
+              </div>
+            </footer>
+      
+          </div>
+      
+  <!-- /main -->
+
+  <div class="main-overlay">
+    <div class="overlay-full"></div>
+  </div>
+
+</div>
+<!-- /main-container -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Shuffle/4.0.0/shuffle.min.js'></script>
+
+<script src="js/index.js"></script>
+
+<script>
+  // Función para mostrar la página seleccionada
+  function showPage(pageNumber) {
+    // Oculta todos los libros
+    $('#grid li').hide();
+
+    // Muestra los libros de la página seleccionada
+    var startIndex = (pageNumber - 1) * 10;
+    var endIndex = startIndex + 10;
+    $('#grid li').slice(startIndex, endIndex).show();
+  }
+
+  // Mostrar la primera página al cargar la página
+  $(document).ready(function () {
+    showPage(1);
+  });
+</script>
+
+</body>
+
+</html>

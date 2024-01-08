@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Libros Digitales</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    #pagination-container {
+      text-align: center;
+      margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    }
+
+    #pagination-container button {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #pagination-container button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="main-container" class="main-container nav-effect-1">
+
+    <div class="main clearfix">
+
+      <!-- Header Content -->
+      <header id="header" class="page-header">
+        <div class="page-header-container row">
+          <!-- Logo -->
+          <div class="main-logo">
+            <a href="#" class="logo">Conalep Iztapalapa V</a>
+          </div>
+          <div class="menu-search">
+            <!-- Main Navigation -->
+            <div class="main-navigation">
+              <a href="#">Menu</a>
+            </div>
+
+            <!-- Search -->
+            <div class="catalog-search">
+              <input class="shuffle-search input_field " type="search" autocomplete="off" value="" maxlength="128" id="input-search" />
+              <label class="input_label" for="input-search">
+                <span class="input_label-content">Buscar libro</span>
+                <span class="input_label-search"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <div class="page-container">
+
+        <div class="page-title category-title">
+        </div>
+
+        <section id="book_list">
+
+
+         
+        
+
+          <div class="toolbar row">
+            <div class="filter-options small-12 medium-9 columns">
+            <a href="#" class="filter-item active" data-group="all"></a>
+              <a href="pagina_ciencias_fisica.html" class="filter-item" data-group="ciencias">Fisica</a>
+              
+            </div>
+
+            <div class="small-12 medium-3 columns">
+              <select class="sort-options">
+                <option value="" disabled selected> </option>
+                <option value=""> </option>
+                <option value="title"> </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-shuffle">
+            <ul id="grid" class="row">
+
+        <!--libro-->
+
+        <li class="book-item small-12 medium-6 columns" data-groups='["ciencias"]'>
+              <div class="bk-img">
+                <div class="bk-wrapper">
+                  <div class="bk-book bk-bookdefault">
+                    <div class="bk-front">
+                        <div class="bk-cover" style="background-image: url('https://m.media-amazon.com/images/I/A10gXQwUxHL._AC_UF894,1000_QL80_.jpg'); background-size: cover; background-position: center;"></div>
+                      </div>
+                      
+                    <div class="bk-back"></div>
+                    <div class="bk-left"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-details">
+                <h3 class="book-item_title">Física General</h3>
+                <p class="author">de Ignacio Martin Bragado</p>
+                
+                    <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                        <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Ciencias/Ciencias Naturales/Fisica" download="Física General.pdf">Descargar PDF</a>
+                   </div>
+
+
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["ciencias"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://images.cdn2.buscalibre.com/fit-in/360x360/b8/b0/b8b097c2b1d611bf8eb6ccb49d732c93.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Física Universitaria Volumen 1</h3>
+          <p class="author">de Samuel J. Ling, Jeff Sanny, William Moebs</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Ciencias/Ciencias Naturales/Fisica" download="Física Universitaria Volumen 1.pdf">Descargar PDF</a>
+              </div>
+
+
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["ciencias"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://www.ingebook.com/ib/pimg/Ingebook/00100_0000003177_8237.png'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Física Universitaria Volumen 2</h3>
+          <p class="author">de Samuel J. Ling, Jeff Sanny, William Moebs</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Ciencias/Ciencias Naturales/Fisica" download="Física Universitaria Volumen 2.pdf">Descargar PDF</a>
+              </div>          
+           
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["ciencias"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://2.bp.blogspot.com/-ovAIqV8R5L4/WOUbkbKwpyI/AAAAAAAAbPE/xNRFKlQ1gakbu-4XWPyX8MQ0Q7_nFRUPwCLcB/s1600/F%25C3%25ADsica%2Buniversitaria.%2BVolumen%2B1%252C%2B13va%2BEdici%25C3%25B3n%2B%25E2%2580%2593%2BSears%2By%2BZemansky-FREELIBROS.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Física Universitaria Volumen 3</h3>
+          <p class="author">de Samuel J. Ling, Jeff Sanny, William Moebs</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Ciencias/Ciencias Naturales/Fisica" download="Física Universitaria Volumen 3.pdf">Descargar PDF</a>
+              </div>      
+      
+           
+    <!--libro-->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["ciencias"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://imagessl3.casadellibro.com/a/l/s7/defecto3.webp'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Física</h3>
+          <p class="author">de Ministro de Educacion Ciencia y Tecnologia</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Ciencias/Ciencias Naturales/Fisica" download="Física.pdf">Descargar PDF</a>
+              </div>        
+    
+                  </ul>
+
+                  <!-- Paginador -->
+                  <div id="pagination-container">
+                    <button onclick="showPage(1)">1</button>
+
+               
+
+
+
+
+                    <!-- Agrega más botones según sea necesario -->
+                  </div>
+                </div>
+              </section>
+      
+            </div>
+      
+            <!-- Footer Content -->
+            <footer id="footer" class="page-footer">
+              <div class="row footer-wrapper">
+                <div class="original-version small-12 columns">
+                  <a href="http://interactivejoe.com/book-viewer/" target="_blank"><em>El que lee mucho y anda mucho, ve mucho y sabe mucho.</em></a>
+                </div>
+                <div class="copyright small-12 columns">  <a href="http://interactivejoe.com/" target="_blank">Miguel de Cervantes Saavedra.</a></div>
+              </div>
+            </footer>
+      
+          </div>
+      
+  <!-- /main -->
+
+  <div class="main-overlay">
+    <div class="overlay-full"></div>
+  </div>
+
+</div>
+<!-- /main-container -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Shuffle/4.0.0/shuffle.min.js'></script>
+
+<script src="js/index.js"></script>
+
+<script>
+  // Función para mostrar la página seleccionada
+  function showPage(pageNumber) {
+    // Oculta todos los libros
+    $('#grid li').hide();
+
+    // Muestra los libros de la página seleccionada
+    var startIndex = (pageNumber - 1) * 10;
+    var endIndex = startIndex + 10;
+    $('#grid li').slice(startIndex, endIndex).show();
+  }
+
+  // Mostrar la primera página al cargar la página
+  $(document).ready(function () {
+    showPage(1);
+  });
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Libros Digitales</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    #pagination-container {
+      text-align: center;
+      margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    }
+
+    #pagination-container button {
+      margin: 0 5px;
+      padding: 8px 12px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #pagination-container button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="main-container" class="main-container nav-effect-1">
+
+    <div class="main clearfix">
+
+      <!-- Header Content -->
+      <header id="header" class="page-header">
+        <div class="page-header-container row">
+          <!-- Logo -->
+          <div class="main-logo">
+            <a href="#" class="logo">Conalep Iztapalapa V</a>
+          </div>
+          <div class="menu-search">
+            <!-- Main Navigation -->
+            <div class="main-navigation">
+              <a href="#">Menu</a>
+            </div>
+
+            <!-- Search -->
+            <div class="catalog-search">
+              <input class="shuffle-search input_field " type="search" autocomplete="off" value="" maxlength="128" id="input-search" />
+              <label class="input_label" for="input-search">
+                <span class="input_label-content">Buscar libro</span>
+                <span class="input_label-search"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Section -->
+      <div class="page-container">
+
+        <div class="page-title category-title">
+        </div>
+
+        <section id="book_list">
+
+          <div class="toolbar row">
+            <div class="filter-options small-12 medium-9 columns">
+            <a href="#" class="filter-item active" data-group="all">Todas las categorías</a>
+              <a href="pagina_contabilidad.html" class="filter-item" data-group="contabilidad">Contabilidad</a>
+              
+            </div>
+
+            <div class="small-12 medium-3 columns">
+              <select class="sort-options">
+                <option value="" disabled selected> </option>
+                <option value=""> </option>
+                <option value="title"> </option>
+              </select>
+            </div>
+          </div>
+
+          <div class="grid-shuffle">
+            <ul id="grid" class="row">
+
+        <!--libro-->
+
+        <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad]'>
+              <div class="bk-img">
+                <div class="bk-wrapper">
+                  <div class="bk-book bk-bookdefault">
+                    <div class="bk-front">
+                        <div class="bk-cover" style="background-image: url('https://imgv2-2-f.scribdassets.com/img/document/108541983/original/bc6fb497c7/1701097921?v=1'); background-size: cover; background-position: center;"></div>
+                      </div>
+                      
+                    <div class="bk-back"></div>
+                    <div class="bk-left"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-details">
+                <h3 class="book-item_title">Aspectos introductorios de la contabilidad, la contabilidad financiera (España versus Europa)</h3>
+                <p class="author">de  D. Roberto Gomez Lopez</p>
+                
+                    <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                        <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Aspectos introductorios de la contabilidad, la contabilidad financiera (España versus Europa).pdf">Descargar PDF</a>
+                    </div>
+
+
+                     <!--libro 2-->
+
+        <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad]'>
+            <div class="bk-img">
+              <div class="bk-wrapper">
+                <div class="bk-book bk-bookdefault">
+                  <div class="bk-front">
+                      <div class="bk-cover" style="background-image: url('https://imgv2-2-f.scribdassets.com/img/document/370537069/original/9ce300495b/1703554798?v=1'); background-size: cover; background-position: center;"></div>
+                    </div>
+                    
+                  <div class="bk-back"></div>
+                  <div class="bk-left"></div>
+                </div>
+              </div>
+            </div>
+            <div class="item-details">
+              <h3 class="book-item_title">Código de Ética para Profesionales de la Contabilidad</h3>
+              <p class="author">de  IFAC</p>
+              
+                  <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                      <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Código de Ética para Profesionales de la Contabilidad.pdf">Descargar PDF</a>
+                  </div>
+                    
+
+     <!--libro 3-->
+
+     <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/dcfe277d132e00fbc8fafc41b454d53d/thumb_1200_1697.png'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Contabilidad Basica</h3>
+          <p class="author">de  Universidad Autonoma del Estado de Hidalgo</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Contabilidad Basica.pdf">Descargar PDF</a>
+              </div>
+
+    <!--libro -->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://bibliotecavirtualtodoeduca.com/wp-content/uploads/2021/12/CONTABILIDAD-GENERAL.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Contabilidad General</h3>
+          <p class="author">de  Guillermo Gonzalez Saavedra</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Contabilidad General.pdf">Descargar PDF</a>
+              </div>
+
+    <!--libro -->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url(''); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Contabilidad hotelera, de restaurantes y de gestión</h3>
+          <p class="author">de  Alcides Peña Sanchez</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Contabilidad hotelera, de restaurantes y de gestión.pdf">Descargar PDF</a>
+              </div>      
+      
+     <!--libro -->
+
+     <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/61M+6VWFJbL._AC_UF350,350_QL50_.jpg'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Contabilidad para todos</h3>
+          <p class="author">de  Rajadell Trujas y Simos</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Contabilidad para todos.pdf">Descargar PDF</a>
+              </div>
+              
+     <!--libro -->
+
+     <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://imgv2-2-f.scribdassets.com/img/document/355548987/original/0216b28b4c/1695480645?v=1'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Contabilidad Social</h3>
+          <p class="author">de  Ramon Plaza Mancera y Ma. Clemencia Villegas de Plaza</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Contabilidad Social.pdf">Descargar PDF</a>
+              </div>       
+     
+    <!--libro -->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["Contabilidad]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://imagessl3.casadellibro.com/a/l/s7/defecto3.webp'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Contabilidad. La cuenta de resultados y el balance</h3>
+          <p class="author">de  UNED</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Contabilidad. La cuenta de resultados y el balance.pdf">Descargar PDF</a>
+              </div>           
+      
+    <!--libro -->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["Contabilidad"]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://d20ohkaloyme4g.cloudfront.net/img/document_thumbnails/3209ae73eb5597959bb60c424e8436f6/thumb_1200_1553.png'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Curso de Contabilidad Básica</h3>
+          <p class="author">de  Angel Luis Almaraz Gonzalez</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Curso de Contabilidad Básica.pdf">Descargar PDF</a>
+              </div>      
+          
+      
+    <!--libro -->
+
+    <li class="book-item small-12 medium-6 columns" data-groups='["contabilidad]'>
+        <div class="bk-img">
+          <div class="bk-wrapper">
+            <div class="bk-book bk-bookdefault">
+              <div class="bk-front">
+                  <div class="bk-cover" style="background-image: url('https://imagessl3.casadellibro.com/a/l/s7/defecto3.webp'); background-size: cover; background-position: center;"></div>
+                </div>
+                
+              <div class="bk-back"></div>
+              <div class="bk-left"></div>
+            </div>
+          </div>
+        </div>
+        <div class="item-details">
+          <h3 class="book-item_title">Diccionario Contable</h3>
+          <p class="author">de Varios Autores</p>
+          
+              <div class="overlay-desc activated" style="text-align: right; display: flex; justify-content: right;">
+                  <a href="http://localhost/www.sis_biblioteca.com/app/tcpdf/Contabilidad" download="Diccionario Contable.pdf">Descargar PDF</a>
+              </div>        
+     
+        
+                  </ul>
+
+                  <!-- Paginador -->
+                  <div id="pagination-container">
+                    <button onclick="showPage(1)">1</button>
+                    <button onclick="showPage(2)">2</button>
+
+               
+
+
+
+
+                    <!-- Agrega más botones según sea necesario -->
+                  </div>
+                </div>
+              </section>
+      
+            </div>
+      
+            <!-- Footer Content -->
+            <footer id="footer" class="page-footer">
+              <div class="row footer-wrapper">
+                <div class="original-version small-12 columns">
+                  <a href="http://interactivejoe.com/book-viewer/" target="_blank"><em>El que lee mucho y anda mucho, ve mucho y sabe mucho.</em></a>
+                </div>
+                <div class="copyright small-12 columns">  <a href="http://interactivejoe.com/" target="_blank">Miguel de Cervantes Saavedra.</a></div>
+              </div>
+            </footer>
+      
+          </div>
+      
+  <!-- /main -->
+
+  <div class="main-overlay">
+    <div class="overlay-full"></div>
+  </div>
+
+</div>
+<!-- /main-container -->
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Shuffle/4.0.0/shuffle.min.js'></script>
+
+<script src="js/index.js"></script>
+
+<script>
+  // Función para mostrar la página seleccionada
+  function showPage(pageNumber) {
+    // Oculta todos los libros
+    $('#grid li').hide();
+
+    // Muestra los libros de la página seleccionada
+    var startIndex = (pageNumber - 1) * 10;
+    var endIndex = startIndex + 10;
+    $('#grid li').slice(startIndex, endIndex).show();
+  }
+
+  // Mostrar la primera página al cargar la página
+  $(document).ready(function () {
+    showPage(1);
+  });
+</script>
+
+</body>
+
+</html>

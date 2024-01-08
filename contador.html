@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Visitas</title>
+</head>
+<body>
+    <!-- Contenido de tu página aquí -->
+
+    <p id="contador-mensaje" style="padding: 3px 10px;">
+        Eres la visita número <span id="contador">0</span>
+    </p>
+
+    <script>
+        // Verificar si ya hay un contador almacenado en localStorage
+        let contador = localStorage.getItem('contador');
+        
+        // Si no hay contador, inicializarlo en 0
+        if (contador === null) {
+            contador = 0;
+        } else {
+            // Si hay contador, convertirlo a número
+            contador = parseInt(contador);
+        }
+
+        // Incrementar el contador y actualizar el mensaje
+        contador++;
+        document.getElementById('contador').innerText = contador;
+
+        // Mostrar el mensaje
+        alert("¡Eres la visita número " + contador + "!");
+
+        // Guardar el nuevo valor del contador en localStorage
+        localStorage.setItem('contador', contador);
+    </script>
+</body>
+</html>
